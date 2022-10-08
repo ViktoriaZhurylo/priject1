@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    margin: 0;
+}
+form {
+    font-family: Arial, serif;
+    width: 700px;
+    margin: 0 auto;
+    border: 2px purple solid;
+    border-radius: 10px;
+    color: purple;
+    background-color:lightpink;
+    padding: 35px 50px;
+    line-height: 50px;
+}
+fieldset {
+    color: black;
+    border: none;
+    padding: 0;
+    line-height: 30px;
+    margin-inline-start: 0;
+    margin-top: 15px;
+}
+
+legend {
+    color: purple;
+    padding: 0;
+}
+
+select {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    background-color:lightgray;
+}
+
+.data {
+    box-sizing: border-box;
+    display: block;
+    border: 2px purple solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.button {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.reset {
+    border: 2px purple solid;
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 80px;
+    background-color: hotpink;
+    color: purple;
+}
+
+.submit {
+    border: 2px purple solid;
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 85px;
+    background-color: purple;
+    color: lightpink;
+}

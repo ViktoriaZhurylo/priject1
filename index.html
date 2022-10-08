@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document</title>
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+    <form>
+        <h1>Contact form</h1>
+        <label for="name">Your name</label>
+        <input class="data" type="text" id="name" name="">
+        <label for="email">Your email</label>
+        <input class="data" type="email" id="email" name="">
+        <label for="age">Choose your age</label>
+        <select class="select"  id="age" name="">
+            <option value="none selected">none selected</option>
+            <option value="13-18">13-18</option>
+            <option value="18-25">18-25</option>
+            <option value="25-40">25-40</option>
+            <option value="40-55">40-55</option>
+            <option value="55+">55+</option>
+        </select>
+        <fieldset>
+           <legend>Choose your gender</legend>
+           <input type="radio" name="gender" id="male">
+           <label for="male">Male</label>
+           <input type="radio" name="gender" id="female">
+           <label for="female">Female</label>
+           <input type="radio" name="gender" id="another">
+           <label for="another">Another</label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose your option</legend>
+            <input type="checkbox" name="" id="o1">
+            <label for="o1">Option 1</label>
+            <input type="checkbox" name="" id="o2">
+            <label for="o2">Option 2</label>
+            <input type="checkbox" name="" id="o3">
+            <label for="o3">Option 3</label>
+            <input type="checkbox" name="" id="o4">
+            <label for="o4">Option 4</label>
+        </fieldset>
+           <label for="tel">Your phone</label>
+           <input class="data" type="tel" id="tel" name="">
+           <label for="password">Your password</label>
+           <input class="data" type="password" id="password" name="">
+           <label for="message">Your message</label>
+           <textarea class="data" id="message"  rows="10" ></textarea>
+        <div class="button">
+           <input class="reset" type="reset" value="Reset">
+           <input class="submit" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
